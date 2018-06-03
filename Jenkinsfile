@@ -1,4 +1,5 @@
 pipeline {
+    git credentialsId: '700', url: 'https://github.com/Lakshmi-Sowji/ucm.git'
     agent any
 
     stages {
